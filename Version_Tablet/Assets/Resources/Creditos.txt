@@ -1,4 +1,4 @@
-Créditos
+﻿Créditos
 
 Desarrolladores
 
@@ -10,6 +10,11 @@ Alejandro Romero Hernández
 Director de proyecto
 
 Borja Manero Iglesias
+
+
+Coordinador científico
+
+Baltasar Fernández-Manjón
 
 
 Gráficos
@@ -60,17 +65,20 @@ Kevin MacLeod (incompetech.com)
 Licensed under Creative Commons: By Attribution 3.0
 http://creativecommons.org/licenses/by/3.0/
 
+Proyectos
+Tecnologías para los Desafíos en Educación y Entrenamiento (TIN2013-46149-C2-1-R)
+eMadrid (eMadrid S2013/ICE-2715)
+H2020 RAGE (Realising an Applied Gaming Eco-system,  Project 644187 H2020-EU.2.1.1.4.)
 
 Agradecimientos
 
-Baltasar Fernández-Manjón
 Pablo Moreno Ger
-Guillermo Jimenez Díaz
 Helena Pimenta
 Cris Lozoya
 Javier Huerta
 Josep Maria Mestres
 María Luisa Hondarza Pérez
+Marcos González Notario
 María Concepción Torrente
 Patricia Romero Hernández
 Jenifer Ballesteros Beltran
@@ -86,4 +94,5 @@ Max Tello Ortiz
 Guillermo Escanciano
 Adrián Calvo Lanza
 Javier Pereira
+CEIP Benito Pérez Galdos de Móstoles
 Todo el equipo de la CNTC
