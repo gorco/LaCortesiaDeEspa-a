@@ -142,7 +142,7 @@ public class ConversacionCutSceneSonido : MonoBehaviour {
 	private void registrarTracker() {
 		if (this.fichero == "ConversacionInicial") {
 			Tracker.T ().Screen("Juego");
-			Tracker.T ().Zone("CutScene Comienzo");
+			Tracker.T ().Zone("CutSceneComienzo");
 		}
 
 		else if (this.fichero == "Transicion1")

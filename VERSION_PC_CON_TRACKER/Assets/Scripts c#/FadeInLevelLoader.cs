@@ -56,7 +56,7 @@ public class FadeInLevelLoader : MonoBehaviour {
 		if (GameObject.Find ("HUD") != null)
 			GameObject.Find ("HUD").SetActive (false);
 
-		VariablesGenerales.Instance.aumentarTareasOpcionalesCompletas (); //Contabilizamos la ultima tarea(siempre es de salir)
+		//VariablesGenerales.Instance.aumentarTareasOpcionalesCompletas (); //Contabilizamos la ultima tarea(siempre es de salir)
 
 		if (Tracker.T () != null)
 			Tracker.T ().RequestFlush();

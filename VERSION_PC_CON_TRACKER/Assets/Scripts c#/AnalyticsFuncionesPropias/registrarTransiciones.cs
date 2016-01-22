@@ -8,17 +8,17 @@ public class registrarTransiciones : MonoBehaviour {
 	void Start () {
 		if (this.numTransicion == 1) {
 			if (Tracker.T () != null)
-				Tracker.T ().Zone ("Transicion Barcelona");
+				Tracker.T ().Zone ("TransicionBarcelona");
 		}
 
 		else if (this.numTransicion == 2) {
 			if (Tracker.T () != null)
-				Tracker.T ().Zone ("Transicion Orgaz");
+				Tracker.T ().Zone ("TransicionOrgaz");
 		}
 
 		else if (this.numTransicion == 3) {
 			if (Tracker.T () != null)
-				Tracker.T ().Zone ("Transicion Toledo");
+				Tracker.T ().Zone ("TransicionToledo");
 		}
 
 		if (Tracker.T () != null)

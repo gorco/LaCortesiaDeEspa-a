@@ -143,7 +143,7 @@ public class controladorMinijuego1 : MonoBehaviour {
 
 		if (Tracker.T () != null) {
 			Tracker.T ().Var("Toques", this.toques);
-			Tracker.T ().Var("Tiempo Minijuego1", this.totalTiempo.text);
+			Tracker.T ().Var("TiempoMinijuego1", this.totalTiempo.text);
 			Tracker.T ().RequestFlush();
 		}
 

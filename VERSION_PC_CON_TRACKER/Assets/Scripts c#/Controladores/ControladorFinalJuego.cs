@@ -70,8 +70,8 @@ public class ControladorFinalJuego : MonoBehaviour {
 			this.tipoFinal = "";
 
 		if (Tracker.T () != null) {
-			Tracker.T ().Screen("Final Juego");
-			Tracker.T ().Var ("Tipo final", this.tipoFinal);
+			Tracker.T ().Screen("FinalJuego");
+			Tracker.T ().Var ("TipoFinal", this.tipoFinal);
 			Tracker.T ().RequestFlush();
 		}
 

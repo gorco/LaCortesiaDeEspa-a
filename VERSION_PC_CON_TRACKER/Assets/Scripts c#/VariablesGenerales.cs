@@ -90,6 +90,7 @@ public class VariablesGenerales : MonoBehaviour {
 	public void aumentaDinero(int cantidad) {
 		dinero += cantidad;
 		if (Tracker.T () != null) {
+			Debug.Log("-----ActualizandoDinero");
 			Tracker.T ().Var ("Dinero", dinero);
 			Tracker.T ().RequestFlush ();
 		}
@@ -154,6 +155,7 @@ public class VariablesGenerales : MonoBehaviour {
 	
 	public void aumentarTareasCompletas() {
 		tareasCompletas ++;
+		Tracker.T().Var("TareasPnCompletas", tareasCompletas - tareasOpcionalesCompletas);
 	}
 	
 	public int getTareasCompletas() {
@@ -162,6 +164,7 @@ public class VariablesGenerales : MonoBehaviour {
 	
 	public void aumentarTareasOpcionalesCompletas() {
 		tareasOpcionalesCompletas ++;
+		Tracker.T().Var("TareasOpCompletas", tareasCompletas);
 	}
 	
 	public int getTareasOpcionalesCompletas() {
